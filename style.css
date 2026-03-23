@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+background-color: hsl(30, 38%, 92%);    
+}
+
+.main-container {
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.second-main {
+    display: flex;
+}
+
+.info {
+    height: 425px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 25px;
+    gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.photo {
+    content: url("isset/image-product-desktop.jpg");
+    height: 450px;
+    width: auto;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color: hsl(212, 21%, 14%);
+    line-height: 35px;
+    
+}
+
+.perfume{
+  
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 4.65px;
+    font-weight: 600;
+}
+
+.forline{
+    line-height: 1.25rem;  
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.price {
+    margin: 0px;
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+    padding-right: 20px;
+}
+
+
+.chirk {
+    margin: 0px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-family: 'Montserrat';
+    text-decoration: line-through;
+}
+
+.inline {
+    margin: 10px 0 10px 0;
+    font-family: 'Fraunces', serif;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display:flex;
+    gap: .9rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    height: 50px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:hover, button:focus{
+    outline: none;
+    background-color: hsl(158, 42%, 18%)
+}
+
+@media screen and (max-width: 1440px) {
+
+    .second-main {
+        flex-direction: column;
+
+    }
+
+    .photo {
+        content: url("isset/image-product-mobile.jpg");
+        border-radius: 20px 20px 0px 0px;
+        width: 400px;
+        height: 300px;
+
+        object-fit: cover;
+    }
+
+    .info {
+        width: 350px;
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 20px;
+    }
+}
