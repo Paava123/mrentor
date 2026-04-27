@@ -117,7 +117,7 @@ button:hover, button:focus{
     background-color: hsl(158, 42%, 18%)
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 800px) {
 
     .second-main {
         flex-direction: column;
