@@ -17,6 +17,7 @@ background-color: hsl(30, 38%, 92%);
 
 .second-main {
     display: flex;
+    flex-direction:row;
 }
 
 .info {
