@@ -117,3 +117,29 @@ button:hover, button:focus{
     outline: none;
     background-color: hsl(158, 42%, 18%)
 }
+
+
+@media screen and (max-width: 1000px) {
+
+    .second-main {
+        flex-direction: column;
+
+    }
+
+    .photo {
+        content: url("isset/image-product-mobile.jpg");
+        border-radius: 20px 20px 0px 0px;
+        width: 400px;
+        height: 300px;
+
+        object-fit: cover;
+    }
+
+    .info {
+        width: 350px;
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+        padding-bottom: 20px;
+    }
+}
+
